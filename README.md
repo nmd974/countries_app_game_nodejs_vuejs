@@ -39,16 +39,12 @@ npm i
 npm run serve
 ```
 ## Remerciements
-[GraphQL api][https://countries.trevorblades.com/]
+GraphQL api : [https://countries.trevorblades.com/]
+Countdown : [https://github.com/philipjkim/vue2-flip-countdown]
+GIF fun yes/no : [https://yesno.wtf]
 
 Windows ne traite pas les drapeaux en emoji, pour cela j'ai utilisé ce site pour récupérer les images des drapeaux :
-[Drapeaux pays][https://flagpedia.net]
-
-[Countdown][https://github.com/philipjkim/vue2-flip-countdown]
-
-GIF fun yes/no : [link-gif]
-[link-gif] : https://yesno.wtf
-
+Drapeaux des pays : [https://flagpedia.net]
 ## Tâches
 - [x] Mise en place du serveur
 - [x] Mise en place du front
