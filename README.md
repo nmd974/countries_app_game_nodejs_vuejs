@@ -31,13 +31,33 @@ Créer deux fichiers :
 - .env
 - .env.production
 
-Mettre la variable d'environnement "VUE_APP_BASE_URL" et la valeur
-Puis exécutez les commandes suivantes
+- Mettre la variable d'environnement "VUE_APP_BASE_URL" et la valeur
+- Puis exécutez les commandes suivantes
 ```
 cd .\frontend\
 npm i
 npm run serve
 ```
+Vous pouvez lancer séparemment les 2 applications mais attention au port :
+- Frontend : 8080 (rajouter dans .env VUE_APP_BASE_URL_API avec le port 3100)
+- Backend : 3100
+
+Vous pouvez sinon faire :
+```
+npm run build --mode production
+```
+- Copier coller le dossier "dist" dans le dossier public de NODEJS
+```
+npm run dev
+```
+
+## Mise en production
+Faire le build de l'application VUE JS
+```
+npm run build --mode production
+```
+Copier coller le dossier "dist" dans le dossier public de NODEJS
+
 ## Remerciements
 - GraphQL api : [https://countries.trevorblades.com/]
 - Countdown : [https://github.com/philipjkim/vue2-flip-countdown]
