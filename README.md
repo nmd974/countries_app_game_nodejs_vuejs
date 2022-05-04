@@ -46,7 +46,8 @@ Windows ne traite pas les drapeaux en emoji, pour cela j'ai utilisé ce site pou
 
 [Countdown][https://github.com/philipjkim/vue2-flip-countdown]
 
-[GIF fun yes/no][https://yesno.wtf]
+GIF fun yes/no : [link-gif]
+[link-gif] : https://yesno.wtf
 
 ## Tâches
 - [x] Mise en place du serveur
