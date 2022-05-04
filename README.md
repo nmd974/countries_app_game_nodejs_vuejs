@@ -38,7 +38,7 @@ cd .\frontend\
 npm i
 npm run serve
 ```
-Vous pouvez lancer séparemment les 2 applications mais attention au port :
+Vous pouvez lancer séparemment les 2 applications (conseillé pour plus de rapidité pour les modifications du front et voir le rendu) mais attention au port:
 - Frontend : 8080 (rajouter dans .env VUE_APP_BASE_URL_API avec le port 3100)
 - Backend : 3100
 
