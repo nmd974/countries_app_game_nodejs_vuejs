@@ -39,14 +39,14 @@ npm i
 npm run serve
 ```
 ## Remerciements
-GraphQL api : [https://countries.trevorblades.com/]
+[GraphQL api][https://countries.trevorblades.com/]
 
 Windows ne traite pas les drapeaux en emoji, pour cela j'ai utilisé ce site pour récupérer les images des drapeaux :
-[https://flagpedia.net]
+[Drapeaux pays][https://flagpedia.net]
 
-Countdown : [https://github.com/philipjkim/vue2-flip-countdown]
+[Countdown][https://github.com/philipjkim/vue2-flip-countdown]
 
-GIF fun yes/no : [https://yesno.wtf]
+[GIF fun yes/no][https://yesno.wtf]
 
 ## Tâches
 - [x] Mise en place du serveur
