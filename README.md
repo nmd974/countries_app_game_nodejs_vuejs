@@ -25,6 +25,19 @@ Frontend :
 - VueRouter
 - axios
 - vue2-flip-countdown
+
+## Modification du frontend
+Créer deux fichiers :
+- .env
+- .env.production
+
+Mettre la variable d'environnement "VUE_APP_BASE_URL" et la valeur
+Puis exécutez les commandes suivantes
+```
+cd .\frontend\
+npm i
+npm run serve
+```
 ## Remerciements
 GraphQL api : [https://countries.trevorblades.com/]
 
